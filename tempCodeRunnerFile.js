@@ -1,1 +1,1 @@
- // let newarray = [...uniquearray];
+function maxMin(arr){
