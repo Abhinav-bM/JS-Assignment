@@ -9,4 +9,4 @@ function sumOfEvenNumbers(n) {
     return sum;
   }
 
-console.log(sumOfEvenNumbers(12));
+console.log(sumOfEvenNumbers(5));

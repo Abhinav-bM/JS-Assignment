@@ -9,12 +9,12 @@
 // console.log(mySet);
 
 
-function removeDuplicates (array){
-    return [...new Set(array)];
-}
+// function removeDuplicates (array){
+//     return [...new Set(array)];
+// }
 
-const myArray = [1,2,2,3,4,4,4,5,6,7,8,8];
+// const myArray = [1,2,2,3,4,4,4,5,6,7,8,8];
 
-const uniqueArray = removeDuplicates(myArray);
+// const uniqueArray = removeDuplicates(myArray);
 
-console.log(uniqueArray);
+// console.log(uniqueArray);
