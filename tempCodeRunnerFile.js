@@ -1,1 +1,3 @@
-function maxMin(arr){
+if (num <= 1) {
+    //     return false;
+    // }

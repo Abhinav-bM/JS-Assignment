@@ -1,0 +1,1 @@
+// Write a function to check if a given number is an Armstrong number.
