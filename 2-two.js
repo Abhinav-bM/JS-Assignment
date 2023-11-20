@@ -17,8 +17,8 @@ console.log(reverseStr(myString));
 //methods
 function reverse(string){
     let revrsedstring = string.split('').reverse().join('');
-    return revrsedstring;
 
     return revrsedstring;
+
 }
-console.log(reverse("abhi"));
+console.log(reverse("abhinav"));

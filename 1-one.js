@@ -16,3 +16,21 @@ function maxElement(arr){
 console.log(maxElement(arr));
 
 
+// arrow
+
+let x = (arr) => {arr.sort((a,b)=>(b-a)); return arr[0]};
+console.log(x(arr));
+
+// reduce
+
+const a = arr.reduce((acc, curr)=>{
+    if(curr > acc ){
+        acc = curr;
+    }
+    return acc;
+},0);
+
+console.log(a);
+
+
+
