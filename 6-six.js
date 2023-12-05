@@ -2,8 +2,9 @@
 
 const myArray = [10,30,22,1,4,7,80,25];
 
-myArray.sort((a,b) => b-a);  // arrow-function
+function secondLargest(arr){
+    const sorted = arr.sort((a,b) => b-a);
+    return sorted[1];
+}
 
-console.log(myArray); // descending order
-
-console.log(myArray[1]); // second largest
+console.log(secondLargest(myArray));

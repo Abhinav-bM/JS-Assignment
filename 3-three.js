@@ -14,6 +14,6 @@ console.log(myArray);
 
 // arrow function
 
-myArray.sort((a,b) => a-b);
+let sorted = myArray.sort((a,b) => a-b);
 
-console.log(myArray);
+console.log(sorted);

@@ -14,11 +14,14 @@ function reverseStr(str){
 console.log(reverseStr(myString));
 
 
-//methods
+// using methods
 function reverse(string){
     let revrsedstring = string.split('').reverse().join('');
 
     return revrsedstring;
 
 }
-console.log(reverse("abhinav"));
+console.log(reverse("Abhinav"));
+
+
+

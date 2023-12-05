@@ -10,3 +10,4 @@ function sumOfEvenNumbers(n) {
   }
 
 console.log(sumOfEvenNumbers(5));
+
