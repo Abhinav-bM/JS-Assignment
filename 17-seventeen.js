@@ -1,15 +1,19 @@
 // Write a program to find the sum of all the even or odd numbers below a given number.
 
-function sumOfEvenOdd (limit){
+function sumOfEvenOdd (limit, type = 'even'){
     let sum = 0;
 
     for (let i = 1; i < limit; i++ ){
-        if (i % 2 === 0 || i % 2 === 1){
+        if (type === 'even' && i % 2 === 0){
             sum = sum + i;
+        }
+
+        else if(type === 'odd' && i % 2 !== 0){
+            sum += i;
         }
     }
 
     return sum;
 }
 
-console.log(sumOfEvenOdd(6));
+console.log(sumOfEvenOdd(6, 'odd'));

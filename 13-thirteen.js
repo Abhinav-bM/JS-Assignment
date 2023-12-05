@@ -1,5 +1,7 @@
 // Write a function to check if a given number is an Armstrong number.
 
+// 153 = 1**3 + 5**3 + 3**3
+
 function checkAmstrong(num){
     const toNum = num.toString();
     const numDigits = toNum.length;
