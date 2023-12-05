@@ -31,4 +31,4 @@ function palindromeCheck(str){
     }
 }
 
-console.log(palindromeCheck("mada"));
+console.log(palindromeCheck("madam"));
