@@ -10,3 +10,5 @@ function findUnique (arr){
 }
 
 console.log(findUnique(array));
+
+
