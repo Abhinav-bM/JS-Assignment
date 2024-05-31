@@ -1,10 +1,10 @@
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
 
 
-let b = [3,3,3,...arr]
+// let b = [3,3,3,...arr]
 
-console.log(b);
+// console.log(b);
 
 // const myObj = {
 //     name1: "kiran",
@@ -14,3 +14,5 @@ console.log(b);
 // const {name1:w, age} = myObj
 
 // console.log(w);
+
+console.log(0 == []);
