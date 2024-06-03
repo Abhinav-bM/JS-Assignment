@@ -1,0 +1,33 @@
+.main-container{
+    display: flex;
+    position: relative;
+}
+/* .main-container svg{
+    margin-top: 100px;
+} */
+.images{
+    display: flex   ;
+    position: relative;
+    width: 100%;
+    justify-content: end;
+    margin-top: 200px;
+}
+.image-2{
+    position: absolute;
+}
+.nav-main{
+    position: absolute;
+}
+/* .nav-main.container-fluid {
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+
+} */
+.list-div ul li{
+    list-style: none;
+}
+
+footer ul li{
+    list-style: none;
+}
