@@ -111,6 +111,7 @@ pro(2)
   .catch((error) => {
     console.log(error);
   })
+  
   .finally(() => {
     console.log("I will be here if anything happen heee!");
   });
