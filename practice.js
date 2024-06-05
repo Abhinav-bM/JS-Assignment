@@ -93,25 +93,40 @@
 
 
 
-function pro(num) {
-  return new Promise((resolve, reject) => {
-    if(num  > 2){
-        resolve("resolved")
-    }
-    else{
-        reject("rejected")
-    }
-  }); 
-}
+// function pro(num) {
+//   return new Promise((resolve, reject) => {
+//     if(num  > 2){
+//         resolve("resolved")
+//     }
+//     else{
+//         reject("rejected")
+//     }
+//   }); 
+// }
 
-pro(2)
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((error) => {
-    console.log(error);
-  })
+// pro(2)
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   })
   
-  .finally(() => {
-    console.log("I will be here if anything happen heee!");
-  });
+//   .finally(() => {
+//     console.log("I will be here if anything happen heee!");
+//   });
+
+// let str = ' hellomy name '
+
+// console.log(str.trimEnd())
+
+// let a = [1,2,3,4,5]
+
+// let sum = a.reduce((curr, acc)=>{
+//   return curr + acc
+// },0)
+
+
+
+
+// console.log("sum of the array :" , sum)
