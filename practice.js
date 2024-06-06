@@ -91,8 +91,6 @@
 
 // fnn()
 
-
-
 // function pro(num) {
 //   return new Promise((resolve, reject) => {
 //     if(num  > 2){
@@ -101,7 +99,7 @@
 //     else{
 //         reject("rejected")
 //     }
-//   }); 
+//   });
 // }
 
 // pro(2)
@@ -111,7 +109,7 @@
 //   .catch((error) => {
 //     console.log(error);
 //   })
-  
+
 //   .finally(() => {
 //     console.log("I will be here if anything happen heee!");
 //   });
@@ -120,13 +118,48 @@
 
 // console.log(str.trimEnd())
 
-// let a = [1,2,3,4,5]
+let a = [1, 2, 3, 4, 5];
 
 // let sum = a.reduce((curr, acc)=>{
 //   return curr + acc
 // },0)
 
-
-
-
 // console.log("sum of the array :" , sum)
+
+// function sumFn() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       return "afjasdfkj";
+//     }, 20000);
+//   });
+// }
+
+// async function check() {
+//   console.log("just runned");
+//   let sum = await sumFn();
+//   console.log("sum form asycn : ", sum);
+//   console.log("iam here");
+// }
+
+// check();
+
+// const user = async (req, res) => {
+//   const userId = req.user.id;
+
+//   const user = await User.findOne({ _id: userId });
+
+//   console.log("User : ", user);
+// };
+
+function sum(arr) {
+  return arr.reduce((curr, acc) => {
+    return curr + acc;
+  }, 0);
+}
+
+sum(a)
+.then((result) => {
+  console.log("sum : ", result)
+}).catch((err) => {
+  console.error("Error : ", err)
+});
