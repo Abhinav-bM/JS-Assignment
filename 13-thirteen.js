@@ -21,4 +21,7 @@ function checkAmstrong(num){
 
 }
 
+
+
+
 console.log(checkAmstrong(153));
